@@ -11,32 +11,39 @@ Visit [https://github.com/battlesnakeio/community/blob/master/starter-snakes.md]
 
 To get started, you'll need:
   1. A working Go development environment ([guide](https://golang.org/doc/install)).
-  2. Read [Heroku's guide to deploying Go apps](https://devcenter.heroku.com/articles/getting-started-with-go#introduction)
+  1. Read [Heroku's guide to deploying Go apps](https://devcenter.heroku.com/articles/getting-started-with-go#introduction)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### Running the AI locally
 
-1) [Fork this repo](https://github.com/sendwithus/battlesnake-go/fork).
-
-2) Clone repo to your development environment:
+1. Clone repo to your development environment:
 ```
-git clone git@github.com:USERNAME/battlesnake-go.git $GOPATH/github.com/USERNAME/battlesnake-go
-cd $GOPATH/github.com/USERNAME/battlesnake-go
+git clone https://github.com/battlesnakeio/starter-snake-go.git $GOPATH/github.com/battlesnakeio/starter-snake-go
+cd $GOPATH/github.com/battlesnakeio/starter-snake-go
 ```
 
-3) Compile and run the server with:
+1. Compile and run the server with:
 
 ```
-Make run
+make run
 ```
 
-4) Test the client in your browser: [http://127.0.0.1:9000/start](http://127.0.0.1:9000/start)
+1. Test the client in your browser: [http://127.0.0.1:9000/start](http://127.0.0.1:9000/start)
+
+### Fork this repo
+
+1. [Fork this repo](https://github.com/battlesnakeio/starter-snake-go/fork).
+
+1. Push and Pull from your new repo
+```
+git remote set-url origin https://github.com/<your-username>/starter-snake-go
+```
 
 ### Running tests locally
 
 ```
-Make test
+make test
 ```
 
 Note: if you're missing any packages, use `Make get`.
