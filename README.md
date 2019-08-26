@@ -1,6 +1,6 @@
 ### Testing Gitpod link!
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/<org>/<repo>)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ert485/starter-snake-go)
 
 
 ## battlesnake-go
